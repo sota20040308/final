@@ -16,11 +16,11 @@
 </head>
 <body>
 <h2>サッカー選手情報管理メニュー</h2>
-    <form action="CRUD-branch.php" method="post">
-        <button type="submit" name="select">一覧</button>
-        <button type="submit" name="insert">登録</button>
-        <button type="submit" name="update">更新</button>
-        <button type="submit" name="delete">削除</button>
+    <form action=".php" method="post">
+        <button type="submit" name="select.php">一覧</button>
+        <button type="submit" name="insert.php">登録</button>
+        <button type="submit" name="update.php">更新</button>
+        <button type="submit" name="delete.php">削除</button>
     </form>
 </body>
 </html>
