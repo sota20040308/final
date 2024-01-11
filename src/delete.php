@@ -1,10 +1,12 @@
-<?php session_start(); ?>
-<?php require 'header.php'; ?>
-<?php require 'menu.php'; ?>
-<?php
-unset($_SESSION['soccerplayer'][$_GET['id']]);
-echo '選手を削除しました。';
-echo '<hr>';
-require 'index.php';
-?>
-<?php require 'footer.php'; ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<h2>選手削除</h2>
+<a href="index.php">メニューに戻る</a>
+<hr>
+</html>
