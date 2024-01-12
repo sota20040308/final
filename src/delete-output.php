@@ -38,7 +38,7 @@
 ?> 
 </table>
     <form action="index.php" method="post">
-        <button type="submit">削除画面へ戻る</button>
+        <button type="submit">メニューへ戻る</button>
     </form>
     </body>
 </html>
