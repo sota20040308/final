@@ -16,10 +16,8 @@
         <table>
             <tr><th>番号</th><th>選手名</th><th>チーム名</th></tr>
             <?php
-            $pdo=new PDO('mysql:host=mysql220.phy.lolipop.lan;dbname=LAA1517457-final;charset=utf8',
-            username:'LAA1517457',
-            password:'Pass0308');
-            foreach($pdo->query('select * soccerplayer from Shohin')as $row){
+            $pdo=new PDO(connect,USER,PASS);
+            foreach($pdo->query('select * from soccerplayer')as $row){
                 echo '<tr>';
                 echo '<td>',$row['id'],'</td>';
                 echo '<td>',$row['name'],'</td>';
