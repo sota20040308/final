@@ -14,6 +14,7 @@
     </head>
     <body>
         <h2>選手一覧</h2>
+        <a href="index.php">メニューに戻る</a><br>
         <table>
             <tr><th>番号</th><th>選手名</th><th>チーム名</th></tr>
 <?php
