@@ -15,17 +15,6 @@
 <body>
 <h2>選手を追加</h2>
 <a href="index.php">メニューに戻る</a>
-<?php
-          $pdo=new PDO($connect,USER,PASS);
-            foreach($pdo->query('select * from soccerplayer')as $row){
-                echo '<tr>';
-                echo '<td>',$row['id'],'</td>';
-                echo '<td>',$row['name'],'</td>';
-                echo '<td>',$row['team'],'</td>';
-                echo '</tr>';
-                echo "\n";
-            }
-            ?>
 <hr>
 <form action="" method="post">
     番号：<input type="text" name="number">
