@@ -13,9 +13,10 @@
         <title>選手一覧</title>
     </head>
     <body>
+        <h2>選手一覧</h2>
         <table>
             <tr><th>番号</th><th>選手名</th><th>チーム名</th></tr>
-            <?php
+<?php
             $pdo=new PDO($connect,USER,PASS);
             foreach($pdo->query('select * from soccerplayer')as $row){
                 echo '<tr>';
@@ -25,7 +26,7 @@
                 echo '</tr>';
                 echo "\n";
             }
-            ?>
+ ?>
         </table>
     </body>
 
