@@ -16,7 +16,7 @@
 	<body>
 		<div class="th0">番号</div>
 		<div class="th1">選手名</div>
-		<div class="th1">チーム名</div>
+		<div class="th2">チーム名</div>
 <?php
     $pdo=new PDO($connect, USER, PASS);
 
