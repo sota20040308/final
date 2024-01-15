@@ -23,7 +23,7 @@
 	foreach ($pdo->query('select * from soccerplayer') as $row) {
 		echo '<form action="update-output.php" method="post">';
 		//商品ID　作成３
-		echo '<input type="text" name="id" value="', $row['id'], '">';
+		echo '<input type="hidden" name="id" value="', $row['id'], '">';
 		echo '<div class="td0">', $row['id'], '</div>';
 		echo '<div class="td1">';
 		//商品名　作成４
